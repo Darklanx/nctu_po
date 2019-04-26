@@ -121,7 +121,6 @@ hr-custom {
     background-color: none;
     width: 100%;
     text-align: left;
-    /* z-index: 1; */
 }
 
 img#close-button {
@@ -385,7 +384,6 @@ input[type=text] {
     bottom: -9.5px;
     display: none;
     /* display: block; */
-    /* z-index: 100; */
 }
 
 #nav3 {
@@ -1809,11 +1807,13 @@ img.01 {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    right: 42vw;
+    right: 20vw;
     top: 60vh;
+    word-wrap:break-word;
     /* Position the tooltip */
     position: fixed;
-    z-index: 102;
+    right: 20vw;
+    top: 60vh;
 }
 
 .decree-detail-articles .tooltiptext {
@@ -1826,8 +1826,7 @@ img.01 {
     padding: 5px 0;
     /* Position the tooltip */
     position: fixed;
-    z-index: 100;
-    left: 42vw;
+    left: 20vw;
     top: 60vh;
 }
 
@@ -1927,6 +1926,7 @@ img.01 {
     height: 100%;
     width: 50vw;
     background-color: #182326;
+    z-index: 101;
 }
 
 .decree-main-container {
@@ -1937,6 +1937,7 @@ img.01 {
     display: none;
     font-size: 14px;
     overflow-y: auto;
+    z-index: 101;
 }
 
 .details-container {
@@ -2909,6 +2910,42 @@ div[class*="page"].staff-job-overview-dot._fade {
     font-size: 1.5em;
     line-height: 50px;
     display: none;
+}
+.cb3-org{
+    display: flex;
+}
+.circle3-1 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    /* Can be set to transparent */
+    -webkit-border-radius: 100px;
+    position: absolute;
+    left:12vw;
+    top:8vh;
+}
+.circle3-2 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    /* Can be set to transparent */
+    -webkit-border-radius: 100px;
+    position: absolute;
+    left:20vw;
+    top:4vh;
+}
+.circle3-3 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    /* Can be set to transparent */
+    -webkit-border-radius: 100px;
+    position: absolute;
+    left:20vw;
+    top:12vh;
 }
 
 .core-value-context {

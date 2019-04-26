@@ -912,7 +912,23 @@
                     </div>
 
                     </div>
-                    <div class="cb3">人事室現有同仁21人，置主任1人，綜理人事業務，並分設第一組、第二組辦<br>事，各組置組長1人。</div>
+                    <div class="cb3">
+                    <div class="cb3-org">
+                        <div style="padding-top:6.5vh;">主任｜任明坤</div>
+                        <div class="circle3-1"></div>
+                        <div class="circle3-2"></div>
+                        <div class="circle3-3"></div>
+                        <div style="padding-left: 2vw;">
+                            <div class="team_name">第一組</div>  
+                            <div>組長｜張家綺</div>
+                        </div>
+                        <div>
+                            <div class="team_name">第二組</div>  
+                            <div>組長｜姜慶芸</div>
+                        </div>
+                    </div>
+                    </div>
+
 
                     <div class="h4" id="h4">
                     <div class="circle4">

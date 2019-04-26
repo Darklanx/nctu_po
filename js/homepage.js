@@ -364,10 +364,12 @@ $(document).ready(function () {
     $('div.h3').hover(function () {
         $('.core-value-context').show();
         $('.cb3').show();
+        $('.circle3-1').show();
         $(".cb3-title").show();
     }, function () {
         $('.core-value-context').hide();
         $('.cb3').hide();
+        $('.circle3-1').hide();
         $(".cb3-title").hide();
     });
 });
