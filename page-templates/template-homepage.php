@@ -1213,7 +1213,7 @@
                     width:50vw;
                     height: 100%;
                     display: none;
-                    z-index:105;
+                    z-index:101;
                     right: 0;
                     top:25%;
                     background-color:black;
@@ -1347,9 +1347,9 @@
                                     echo ("<div class='decree-form-names-container'>");
                                     for ($i = 0; $i < sizeof($forms_name); $i++) {
                                         // shorten long name
-                                        if (mb_strlen($forms_name[$i], "utf-8") > 25) {
+                                        if (mb_strlen($forms_name[$i], "utf-8") > 15) {
                                             $tmp_name = $forms_name[$i];
-                                            $forms_name[$i] = mb_substr($forms_name[$i], 0, 25, "utf-8") . "...";
+                                            $forms_name[$i] = mb_substr($forms_name[$i], 0, 15, "utf-8") . "...";
                                             echo ("<div class='decree-form-name'>$forms_name[$i]" . "<span class='tooltiptext'>$tmp_name</span>" . "</div>");
                                         } else {
                                             echo ("<div class='decree-form-name'>$forms_name[$i]</div>");
