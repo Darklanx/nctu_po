@@ -1,13 +1,13 @@
 'use strict';
 // 建置中
 $(function () {
-    $("#nav6,.buttom-icon").click(e => {
+    $("#nav6").click(e => {
         window.open('http://personnel.nctu.edu.tw/time_clock.php','_blank');
     })
 })
 
 $(function () {
-    $("#nav7,.buttom-icon").click(e => {
+    $("#nav7").click(e => {
         window.open('http://personnel.nctu.edu.tw/faq.php','_blank');
     })
 })
