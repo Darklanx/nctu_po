@@ -2,11 +2,57 @@
 // 建置中
 $(function () {
     $("#nav6,.buttom-icon").click(e => {
-        window.open('wordpress/working/', '_blank');
+        window.open('http://personnel.nctu.edu.tw/time_clock.php','_blank');
     })
 })
 
+$(function () {
+    $("#nav7,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/faq.php','_blank');
+    })
+})
 
+$(function () {
+    $(".pic1,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/condition.php','_blank');
+    })
+})
+
+$(function () {
+    $(".pic2,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/foreign.php','_blank');
+    })
+})
+
+$(function () {
+    $(".pic3,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/pluralism.php','_blank');
+    })
+})
+
+$(function () {
+    $(".pic4,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/adjunct_assistant.html','_blank');
+    })
+})
+
+$(function () {
+    $(".pic5,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/promotion.html','_blank');
+    })
+})
+
+$(function () {
+    $(".pic6,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/retire.php','_blank');
+    })
+})
+
+$(function () {
+    $(".pic7,.buttom-icon").click(e => {
+        window.open('http://personnel.nctu.edu.tw/ac.php','_blank');
+    })
+})
 
 var bgmask = 0;
 // nav hover 展開2個直角梯形
