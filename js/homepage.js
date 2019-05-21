@@ -13,43 +13,43 @@ $(function () {
 })
 
 $(function () {
-    $(".pic1,.buttom-icon").click(e => {
+    $(".pic1 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/condition.php','_blank');
     })
 })
 
 $(function () {
-    $(".pic2,.buttom-icon").click(e => {
+    $(".pic2 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/foreign.php','_blank');
     })
 })
 
 $(function () {
-    $(".pic3,.buttom-icon").click(e => {
+    $(".pic3 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/pluralism.php','_blank');
     })
 })
 
 $(function () {
-    $(".pic4,.buttom-icon").click(e => {
+    $(".pic4 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/adjunct_assistant.html','_blank');
     })
 })
 
 $(function () {
-    $(".pic5,.buttom-icon").click(e => {
+    $(".pic5 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/promotion.html','_blank');
     })
 })
 
 $(function () {
-    $(".pic6,.buttom-icon").click(e => {
+    $(".pic6 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/retire.php','_blank');
     })
 })
 
 $(function () {
-    $(".pic7,.buttom-icon").click(e => {
+    $(".pic7 .buttom-icon").click(e => {
         window.open('http://personnel.nctu.edu.tw/ac.php','_blank');
     })
 })
