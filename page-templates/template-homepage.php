@@ -2128,7 +2128,7 @@ foreach ($QA_type as $idx => $type) {
 
 
 
-    <!-- <div class="footer">
+   <!--  <div class="footer">
   <img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="footer" width="100%" style="position: fixed; bottom: 0; left: 0;">
 </div> -->
 
